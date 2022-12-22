@@ -1,0 +1,36 @@
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+}
+#stopwatch{
+    font-size: 100px;
+    border-radius: 10px;
+    color:blue;
+    height:150px;
+    width:400px;
+    border: 1px solid black;
+    box-shadow: rgba(211, 188, 188, 0.35) 0px 5px 15px;
+    margin: 5px;
+}
+
+button{
+ padding:20px;
+ color:white;
+ background-color: maroon;
+ border: none;
+ border-radius: 5px;
+ margin-top: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
